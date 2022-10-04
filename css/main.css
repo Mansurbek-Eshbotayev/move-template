@@ -1,0 +1,28 @@
+body {
+  background: rgb(183, 196, 106);
+  background: linear-gradient(
+    0deg,
+    rgba(183, 196, 106, 1) 0%,
+    rgba(89, 185, 160, 1) 49%,
+    rgba(151, 211, 224, 1) 100%
+  );
+}
+
+.film__item {
+  background: rgb(134, 127, 127);
+  background: linear-gradient(
+    0deg,
+    rgba(134, 127, 127, 0.4321078773306197) 0%,
+    rgba(251, 251, 251, 1) 100%,
+    rgba(151, 211, 224, 1) 100%
+  );
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo {
+  height: 150px;
+  background-image: url(../img/muv.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
